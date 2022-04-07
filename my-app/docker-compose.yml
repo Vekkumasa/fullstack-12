@@ -1,0 +1,37 @@
+version: '3.8'
+
+services:
+  app:
+    image: alkuluvut-front-prod
+    build:
+      context: ./frontend
+      dockerfile: ./frontend/Dockerfile
+    volumes:
+      - ./frontend/:/usr/src/app
+    ports:
+      - 3000:80
+    environment:
+      - REACT_APP_BACKEND_URL=server:3003
+    container_name: alkuluvut-front-prod
+
+  server:
+    image: alkuluvut-back-prod
+    build:
+      context: ./backend
+      dockerfile: ./backend/Dockerfile
+    volumes:
+      - ./backend/:/usr/src/app
+    ports:
+      - 3003:3003
+    container_name: alkuluvut-backend-prod
+
+  nginx:
+    image: nginx:1.20.1
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf:ro
+    ports:
+      - 8080:80
+    container_name: reverse-proxy
+    depends_on:
+      - app # wait for the frontend container to be started
+      - server

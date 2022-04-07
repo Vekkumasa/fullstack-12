@@ -1,0 +1,13 @@
+Script started on 2022-01-18 09:07:38+02:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="143" LINES="30"]
+]0;vekkumasa@MSI: /mnt/c/Yliopisto/FullStack/12osa/script-answers[01;32mvekkumasa@MSI[00m:[01;34m/mnt/c/Yliopisto/FullStack/12osa/script-answers[00m$ docker container run -it ubunyu [K[K[Ktu a[K[K bash
+]0;root@598eecd462ec: /root@598eecd462ec:/# [K]0;root@598eecd462ec: /root@598eecd462ec:/# mkdir /usr/src/app
+]0;root@598eecd462ec: /root@598eecd462ec:/# touch /usr/src/app/index.js
+]0;root@598eecd462ec: /root@598eecd462ec:/# [Kcd ( /usr/src/app/
+]0;root@598eecd462ec: /usr/src/approot@598eecd462ec:/usr/src/app# ls
+index.js
+]0;root@598eecd462ec: /usr/src/approot@598eecd462ec:/usr/src/app# exit
+exit
+]0;vekkumasa@MSI: /mnt/c/Yliopisto/FullStack/12osa/script-answers[01;32mvekkumasa@MSI[00m:[01;34m/mnt/c/Yliopisto/FullStack/12osa/script-answers[00m$ exit
+exit
+
+Script done on 2022-01-18 09:08:41+02:00 [COMMAND_EXIT_CODE="0"]

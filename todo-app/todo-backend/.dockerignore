@@ -1,0 +1,9 @@
+*
+!package.json
+!package-lock.json
+!bin
+!mongo
+!redis
+!routes
+!util
+!app.js

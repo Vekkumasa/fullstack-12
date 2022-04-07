@@ -1,0 +1,10 @@
+Script started on 2022-01-17 11:10:36+02:00 [TERM="xterm-256color" TTY="/dev/tty1" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+]0;vekkumasa@MSI: /mnt/c/Yliopisto/FullStack/12osa/script-answers[01;32mvekkumasa@MSI[00m:[01;34m/mnt/c/Yliopisto/FullStack/12osa/script-answers[00m$ echo "hello"
+hello
+]0;vekkumasa@MSI: /mnt/c/Yliopisto/FullStack/12osa/script-answers[01;32mvekkumasa@MSI[00m:[01;34m/mnt/c/Yliopisto/FullStack/12osa/script-answers[00m$ exit
+exit
+
+Script done on 2022-01-17 11:10:41+02:00 [COMMAND_EXIT_CODE="0"]

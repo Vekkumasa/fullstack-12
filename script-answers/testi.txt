@@ -1,0 +1,7 @@
+Script started on 2022-04-04 14:07:43+03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="120" LINES="26"]
+]0;vekkumasa@MSI: /mnt/c/Yliopisto/FullStack/12osa/script-answers[01;32mvekkumasa@MSI[00m:[01;34m/mnt/c/Yliopisto/FullStack/12osa/script-answers[00m$ echo testi
+testi
+]0;vekkumasa@MSI: /mnt/c/Yliopisto/FullStack/12osa/script-answers[01;32mvekkumasa@MSI[00m:[01;34m/mnt/c/Yliopisto/FullStack/12osa/script-answers[00m$ exit
+exit
+
+Script done on 2022-04-04 14:07:49+03:00 [COMMAND_EXIT_CODE="0"]
